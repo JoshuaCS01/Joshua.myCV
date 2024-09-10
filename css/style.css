@@ -127,29 +127,40 @@ section.splash{
 section.education{
   box-shadow:none;
 }
-  
 
-  dl {
+dt{
+  margin-left: 10px;
+}  
+
+li::marker {
+ color: rgb(168, 0, 0);
+}
+
+dt{
+  font-weight: bold;
+  font-size: larger;
+}
+
+dl {
     display:grid;
+    grid-template-columns: 5;
     margin:  5px 10px 5px 10px;
-    font-size: large;
-  }
+}
 
-  li {
-    margin:  5px 10px 5px 10px;
-    font-size: large;
-    
-  }
-
-  H2 {
+li {
     margin:  5px 10px 5px 10px;
     
-  }
+}
 
-  H3 {
+h2 {
+    margin:  5px 10px 5px 10px;
+    
+}
+
+h3 {
     margin:  1px 1px 1px 10px;
     
-  }
+}
 
 .three-col{
     display: grid;
@@ -172,6 +183,9 @@ section.education{
     outline-color: maroon;
 }
 
+.card li::marker{
+color: black;
+}
 
 
 div img{
@@ -188,12 +202,12 @@ div img{
 
   .publix{
     text-decoration: none;
-    color:black
+    color:maroon
   }
 
   .publix:hover{
     text-decoration: underline;
-    color:green;
+    color:#3e902d;
     font-size: larger;
   }
 
