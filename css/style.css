@@ -1,0 +1,252 @@
+body {
+    margin:0px 0px 0px 0px;
+    background-color: rgba(234, 224, 213);
+  }
+
+  nav{
+    background-color: rgb(41, 40, 40);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  nav p {
+    border: 10px solid rgb(41, 40, 40);
+    background-color: rgb(41, 40, 40);
+    color:white;
+    margin:0px 0px 0px 0px;
+  }
+
+  nav a{
+    text-decoration: none;
+    color:white;
+    margin: 0px;
+    border: 10px solid rgb(41, 40, 40);
+  }
+
+  nav a:hover{
+    background-color: black;
+    border: 10px solid black;
+    
+  }
+
+  footer{
+    background-color: rgb(41, 40, 40);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    color: rgb(184, 184, 184);
+  }
+  
+footer a, footer p {
+    color: rgb(184, 184, 184);
+}
+
+footer i {
+    color: rgb(85, 160, 230);
+}
+
+
+  section {
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 1px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  section p{
+    margin: 10px 10px 10px 10px;
+  }
+
+  section h2{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 27px;
+    color:rgb(172, 0, 0);
+  }
+
+  hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    height:5px;
+    border: none;
+    border-top: medium double maroon;
+    color: maroon;
+    text-align: center;
+    margin: 0px 10px;
+}
+hr:after {
+    font-family: "Playwrite BE VLG", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    content: "J.C.";
+    display: inline-block;
+    position: relative;
+    top: -1.4em;
+    font-size: small;
+    padding: .1px 5px;
+    background: none;
+    margin:5px 5px;
+    background-color: rgba(234, 224, 213);
+}
+
+section.splash h1{
+  margin: 19px 19px 19px 10px;
+  font-family: "Baskervville SC", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  color:maroon;
+}
+
+section.splash img{
+  margin: 0px 0px 0px 10px;
+  border: outset 11px; 
+  border-color: rgb(119, 38, 38);
+}
+
+
+section.splash p.address{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: larger;
+}
+
+section.splash p.tag{
+font-size: large;
+}
+
+
+section.splash{
+  box-shadow:none;
+}
+
+section.education{
+  box-shadow:none;
+}
+  
+
+  dl {
+    display:grid;
+    margin:  5px 10px 5px 10px;
+    font-size: large;
+  }
+
+  li {
+    margin:  5px 10px 5px 10px;
+    font-size: large;
+    
+  }
+
+  H2 {
+    margin:  5px 10px 5px 10px;
+    
+  }
+
+  H3 {
+    margin:  1px 1px 1px 10px;
+    
+  }
+
+.three-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: fit-content
+}
+
+.card{
+    background-color: rgb(214, 214, 214);
+    min-height: 617px;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline-style: double;
+    outline-width: 3px;
+    outline-color: maroon;
+}
+
+
+
+div img{
+  size-adjust: 50;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center center;
+  margin: auto;
+  display: block;
+  
+
+}
+
+
+  .publix{
+    text-decoration: none;
+    color:black
+  }
+
+  .publix:hover{
+    text-decoration: underline;
+    color:green;
+    font-size: larger;
+  }
+
+.one-col{
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.one-col input{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border: 2px solid maroon;
+}
+
+
+
+.one-col label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.one-col textarea{
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-top: 0px;
+  border: 2px solid maroon;
+}
+
+.submit:hover{
+  background-color: rgb(218, 218, 218);
+}
+
+.contactMe p {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: larger;
+}
+
+.contactMe h1{
+  margin-left: 10px;
+}
+
+.contactMe{
+  box-shadow: none;
+}
+
+dd{
+  margin-bottom: 10px;
+}
+
+
